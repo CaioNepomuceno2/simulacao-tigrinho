@@ -1,0 +1,523 @@
+{
+ "o_que_e": "Simulação de 10 mil jogadores num caça-níquel de teste, para o vídeo do tigrinho do canal Experimento Neural.",
+ "semente": 20261113,
+ "jogadores": 10000,
+ "giros_max": 20000,
+ "saldo_inicial": 100.0,
+ "aposta": 1.0,
+ "data": "2026-11-15",
+ "modelo": {
+  "tipo": "moderado",
+  "generico": {
+   "valores": [
+    0.4,
+    0.6,
+    1.0,
+    1.6,
+    2.0,
+    5.0,
+    10.0,
+    25.0,
+    50.0,
+    100.0,
+    250.0
+   ],
+   "acerto": 0.3
+  },
+  "fita_contagens": {
+   "curinga": 0,
+   "lingote": 0,
+   "jade": 0,
+   "saco": 0,
+   "envelope": 0,
+   "rojao": 0,
+   "laranja": 0
+  },
+  "fita_tamanho": 1000,
+  "alfa_peso": NaN,
+  "rtp_modelo_exato_pct": 96.81,
+  "fator_premio": {
+   "justo": 1.032951,
+   "tigrinho": 1.0,
+   "piso": 0.878008
+  },
+  "premios_por_linha": {
+   "curinga": 250.0,
+   "lingote": 100.0,
+   "jade": 25.0,
+   "saco": 10.0,
+   "envelope": 8.0,
+   "rojao": 5.0,
+   "laranja": 3.0
+  }
+ },
+ "giros_tigrinho": {
+  "giros_sorteados": 200000000,
+  "pct_giros_com_premio": 29.992,
+  "pct_premios_menores_que_aposta": 69.13,
+  "pct_giros_tela_cheia": 0.0,
+  "pct_premio_apos_seca": {
+   "10": 29.992,
+   "20": 29.955,
+   "30": 28.847
+  },
+  "n_apos_seca": {
+   "10": 5650065,
+   "20": 161096,
+   "30": 4770
+  }
+ },
+ "marcos": {
+  "justo": {
+   "10": {
+    "pct_no_lucro": 17.08,
+    "pct_zerados": 0.0,
+    "saldo_mediano": 93.1,
+    "saldo_medio": 99.33,
+    "apostado_total": 100000.0,
+    "casa_ficou_com": 6718.31,
+    "casa_pct_do_apostado": 6.718,
+    "casa_pct_do_depositado": 0.67
+   },
+   "25": {
+    "pct_no_lucro": 22.02,
+    "pct_zerados": 0.0,
+    "saldo_mediano": 85.54,
+    "saldo_medio": 98.81,
+    "apostado_total": 250000.0,
+    "casa_ficou_com": 11885.14,
+    "casa_pct_do_apostado": 4.754,
+    "casa_pct_do_depositado": 1.19
+   },
+   "50": {
+    "pct_no_lucro": 26.45,
+    "pct_zerados": 0.0,
+    "saldo_mediano": 76.86,
+    "saldo_medio": 98.71,
+    "apostado_total": 500000.0,
+    "casa_ficou_com": 12857.56,
+    "casa_pct_do_apostado": 2.572,
+    "casa_pct_do_depositado": 1.29
+   },
+   "100": {
+    "pct_no_lucro": 31.27,
+    "pct_zerados": 0.0,
+    "saldo_mediano": 67.76,
+    "saldo_medio": 99.13,
+    "apostado_total": 1000000.0,
+    "casa_ficou_com": 8666.67,
+    "casa_pct_do_apostado": 0.867,
+    "casa_pct_do_depositado": 0.87
+   },
+   "200": {
+    "pct_no_lucro": 34.86,
+    "pct_zerados": 26.08,
+    "saldo_mediano": 55.56,
+    "saldo_medio": 98.78,
+    "apostado_total": 1903936.0,
+    "casa_ficou_com": 12217.38,
+    "casa_pct_do_apostado": 0.642,
+    "casa_pct_do_depositado": 1.22
+   },
+   "300": {
+    "pct_no_lucro": 34.54,
+    "pct_zerados": 44.04,
+    "saldo_mediano": 28.9,
+    "saldo_medio": 98.68,
+    "apostado_total": 2542026.0,
+    "casa_ficou_com": 13174.44,
+    "casa_pct_do_apostado": 0.518,
+    "casa_pct_do_depositado": 1.32
+   },
+   "500": {
+    "pct_no_lucro": 31.39,
+    "pct_zerados": 59.16,
+    "saldo_mediano": 0.86,
+    "saldo_medio": 99.46,
+    "apostado_total": 3486929.0,
+    "casa_ficou_com": 5356.02,
+    "casa_pct_do_apostado": 0.154,
+    "casa_pct_do_depositado": 0.54
+   },
+   "1000": {
+    "pct_no_lucro": 24.96,
+    "pct_zerados": 71.48,
+    "saldo_mediano": 0.74,
+    "saldo_medio": 97.84,
+    "apostado_total": 5165699.0,
+    "casa_ficou_com": 21610.37,
+    "casa_pct_do_apostado": 0.418,
+    "casa_pct_do_depositado": 2.16
+   },
+   "2000": {
+    "pct_no_lucro": 18.57,
+    "pct_zerados": 80.01,
+    "saldo_mediano": 0.67,
+    "saldo_medio": 99.53,
+    "apostado_total": 7509163.0,
+    "casa_ficou_com": 4713.46,
+    "casa_pct_do_apostado": 0.063,
+    "casa_pct_do_depositado": 0.47
+   },
+   "3000": {
+    "pct_no_lucro": 15.77,
+    "pct_zerados": 83.68,
+    "saldo_mediano": 0.65,
+    "saldo_medio": 101.64,
+    "apostado_total": 9302917.0,
+    "casa_ficou_com": -16422.12,
+    "casa_pct_do_apostado": -0.177,
+    "casa_pct_do_depositado": -1.64
+   },
+   "5000": {
+    "pct_no_lucro": 12.23,
+    "pct_zerados": 87.3,
+    "saldo_mediano": 0.62,
+    "saldo_medio": 99.1,
+    "apostado_total": 12162294.0,
+    "casa_ficou_com": 9045.16,
+    "casa_pct_do_apostado": 0.074,
+    "casa_pct_do_depositado": 0.9
+   },
+   "10000": {
+    "pct_no_lucro": 8.44,
+    "pct_zerados": 91.42,
+    "saldo_mediano": 0.6,
+    "saldo_medio": 98.0,
+    "apostado_total": 17291966.0,
+    "casa_ficou_com": 19999.05,
+    "casa_pct_do_apostado": 0.116,
+    "casa_pct_do_depositado": 2.0
+   },
+   "20000": {
+    "pct_no_lucro": 5.99,
+    "pct_zerados": 93.91,
+    "saldo_mediano": 0.58,
+    "saldo_medio": 98.85,
+    "apostado_total": 24419797.0,
+    "casa_ficou_com": 11466.87,
+    "casa_pct_do_apostado": 0.047,
+    "casa_pct_do_depositado": 1.15
+   }
+  },
+  "tigrinho": {
+   "10": {
+    "pct_no_lucro": 16.49,
+    "pct_zerados": 0.0,
+    "saldo_mediano": 93.0,
+    "saldo_medio": 99.03,
+    "apostado_total": 100000.0,
+    "casa_ficou_com": 9694.0,
+    "casa_pct_do_apostado": 9.694,
+    "casa_pct_do_depositado": 0.97
+   },
+   "25": {
+    "pct_no_lucro": 21.76,
+    "pct_zerados": 0.0,
+    "saldo_mediano": 85.2,
+    "saldo_medio": 98.05,
+    "apostado_total": 250000.0,
+    "casa_ficou_com": 19481.0,
+    "casa_pct_do_apostado": 7.792,
+    "casa_pct_do_depositado": 1.95
+   },
+   "50": {
+    "pct_no_lucro": 25.65,
+    "pct_zerados": 0.0,
+    "saldo_mediano": 76.0,
+    "saldo_medio": 97.16,
+    "apostado_total": 500000.0,
+    "casa_ficou_com": 28397.4,
+    "casa_pct_do_apostado": 5.679,
+    "casa_pct_do_depositado": 2.84
+   },
+   "100": {
+    "pct_no_lucro": 30.15,
+    "pct_zerados": 0.0,
+    "saldo_mediano": 65.6,
+    "saldo_medio": 95.97,
+    "apostado_total": 1000000.0,
+    "casa_ficou_com": 40290.2,
+    "casa_pct_do_apostado": 4.029,
+    "casa_pct_do_depositado": 4.03
+   },
+   "200": {
+    "pct_no_lucro": 32.9,
+    "pct_zerados": 28.35,
+    "saldo_mediano": 50.1,
+    "saldo_medio": 92.78,
+    "apostado_total": 1892669.0,
+    "casa_ficou_com": 72219.6,
+    "casa_pct_do_apostado": 3.816,
+    "casa_pct_do_depositado": 7.22
+   },
+   "300": {
+    "pct_no_lucro": 31.95,
+    "pct_zerados": 46.91,
+    "saldo_mediano": 17.0,
+    "saldo_medio": 90.68,
+    "apostado_total": 2504693.0,
+    "casa_ficou_com": 93187.6,
+    "casa_pct_do_apostado": 3.721,
+    "casa_pct_do_depositado": 9.32
+   },
+   "500": {
+    "pct_no_lucro": 28.56,
+    "pct_zerados": 62.08,
+    "saldo_mediano": 0.8,
+    "saldo_medio": 88.42,
+    "apostado_total": 3390835.0,
+    "casa_ficou_com": 115755.4,
+    "casa_pct_do_apostado": 3.414,
+    "casa_pct_do_depositado": 11.58
+   },
+   "1000": {
+    "pct_no_lucro": 21.25,
+    "pct_zerados": 74.87,
+    "saldo_mediano": 0.8,
+    "saldo_medio": 81.68,
+    "apostado_total": 4910748.0,
+    "casa_ficou_com": 183229.8,
+    "casa_pct_do_apostado": 3.731,
+    "casa_pct_do_depositado": 18.32
+   },
+   "2000": {
+    "pct_no_lucro": 15.21,
+    "pct_zerados": 83.64,
+    "saldo_mediano": 0.6,
+    "saldo_medio": 76.52,
+    "apostado_total": 6903973.0,
+    "casa_ficou_com": 234833.8,
+    "casa_pct_do_apostado": 3.401,
+    "casa_pct_do_depositado": 23.48
+   },
+   "3000": {
+    "pct_no_lucro": 12.34,
+    "pct_zerados": 86.96,
+    "saldo_mediano": 0.6,
+    "saldo_medio": 73.79,
+    "apostado_total": 8353920.0,
+    "casa_ficou_com": 262149.4,
+    "casa_pct_do_apostado": 3.138,
+    "casa_pct_do_depositado": 26.21
+   },
+   "5000": {
+    "pct_no_lucro": 8.69,
+    "pct_zerados": 90.88,
+    "saldo_mediano": 0.6,
+    "saldo_medio": 65.06,
+    "apostado_total": 10527100.0,
+    "casa_ficou_com": 349444.6,
+    "casa_pct_do_apostado": 3.319,
+    "casa_pct_do_depositado": 34.94
+   },
+   "10000": {
+    "pct_no_lucro": 5.16,
+    "pct_zerados": 94.75,
+    "saldo_mediano": 0.6,
+    "saldo_medio": 53.92,
+    "apostado_total": 13898508.0,
+    "casa_ficou_com": 460802.6,
+    "casa_pct_do_apostado": 3.315,
+    "casa_pct_do_depositado": 46.08
+   },
+   "20000": {
+    "pct_no_lucro": 3.17,
+    "pct_zerados": 96.79,
+    "saldo_mediano": 0.6,
+    "saldo_medio": 42.19,
+    "apostado_total": 17983368.0,
+    "casa_ficou_com": 578123.6,
+    "casa_pct_do_apostado": 3.215,
+    "casa_pct_do_depositado": 57.81
+   }
+  },
+  "piso": {
+   "10": {
+    "pct_no_lucro": 14.35,
+    "pct_zerados": 0.0,
+    "saldo_mediano": 92.63,
+    "saldo_medio": 97.93,
+    "apostado_total": 100000.0,
+    "casa_ficou_com": 20710.57,
+    "casa_pct_do_apostado": 20.711,
+    "casa_pct_do_depositado": 2.07
+   },
+   "25": {
+    "pct_no_lucro": 19.96,
+    "pct_zerados": 0.0,
+    "saldo_mediano": 83.96,
+    "saldo_medio": 95.24,
+    "apostado_total": 250000.0,
+    "casa_ficou_com": 47602.37,
+    "casa_pct_do_apostado": 19.041,
+    "casa_pct_do_depositado": 4.76
+   },
+   "50": {
+    "pct_no_lucro": 23.31,
+    "pct_zerados": 0.0,
+    "saldo_mediano": 72.83,
+    "saldo_medio": 91.41,
+    "apostado_total": 500000.0,
+    "casa_ficou_com": 85928.92,
+    "casa_pct_do_apostado": 17.186,
+    "casa_pct_do_depositado": 8.59
+   },
+   "100": {
+    "pct_no_lucro": 26.02,
+    "pct_zerados": 0.0,
+    "saldo_mediano": 57.6,
+    "saldo_medio": 84.26,
+    "apostado_total": 1000000.0,
+    "casa_ficou_com": 157366.67,
+    "casa_pct_do_apostado": 15.737,
+    "casa_pct_do_depositado": 15.74
+   },
+   "200": {
+    "pct_no_lucro": 25.53,
+    "pct_zerados": 37.59,
+    "saldo_mediano": 28.36,
+    "saldo_medio": 71.14,
+    "apostado_total": 1842771.0,
+    "casa_ficou_com": 288608.73,
+    "casa_pct_do_apostado": 15.662,
+    "casa_pct_do_depositado": 28.86
+   },
+   "300": {
+    "pct_no_lucro": 24.12,
+    "pct_zerados": 57.32,
+    "saldo_mediano": 0.9,
+    "saldo_medio": 63.42,
+    "apostado_total": 2354336.0,
+    "casa_ficou_com": 365845.6,
+    "casa_pct_do_apostado": 15.539,
+    "casa_pct_do_depositado": 36.58
+   },
+   "500": {
+    "pct_no_lucro": 19.08,
+    "pct_zerados": 72.42,
+    "saldo_mediano": 0.73,
+    "saldo_medio": 53.72,
+    "apostado_total": 3029715.0,
+    "casa_ficou_com": 462757.85,
+    "casa_pct_do_apostado": 15.274,
+    "casa_pct_do_depositado": 46.28
+   },
+   "1000": {
+    "pct_no_lucro": 11.63,
+    "pct_zerados": 85.2,
+    "saldo_mediano": 0.63,
+    "saldo_medio": 38.23,
+    "apostado_total": 4034976.0,
+    "casa_ficou_com": 617650.96,
+    "casa_pct_do_apostado": 15.307,
+    "casa_pct_do_depositado": 61.77
+   },
+   "2000": {
+    "pct_no_lucro": 6.06,
+    "pct_zerados": 93.13,
+    "saldo_mediano": 0.59,
+    "saldo_medio": 24.36,
+    "apostado_total": 5027099.0,
+    "casa_ficou_com": 756380.28,
+    "casa_pct_do_apostado": 15.046,
+    "casa_pct_do_depositado": 75.64
+   },
+   "3000": {
+    "pct_no_lucro": 3.66,
+    "pct_zerados": 95.8,
+    "saldo_mediano": 0.57,
+    "saldo_medio": 17.42,
+    "apostado_total": 5562712.0,
+    "casa_ficou_com": 825844.19,
+    "casa_pct_do_apostado": 14.846,
+    "casa_pct_do_depositado": 82.58
+   },
+   "5000": {
+    "pct_no_lucro": 1.59,
+    "pct_zerados": 98.26,
+    "saldo_mediano": 0.56,
+    "saldo_medio": 9.25,
+    "apostado_total": 6101022.0,
+    "casa_ficou_com": 907529.9,
+    "casa_pct_do_apostado": 14.875,
+    "casa_pct_do_depositado": 90.75
+   },
+   "10000": {
+    "pct_no_lucro": 0.35,
+    "pct_zerados": 99.63,
+    "saldo_mediano": 0.55,
+    "saldo_medio": 2.67,
+    "apostado_total": 6535930.0,
+    "casa_ficou_com": 973317.7,
+    "casa_pct_do_apostado": 14.892,
+    "casa_pct_do_depositado": 97.33
+   },
+   "20000": {
+    "pct_no_lucro": 0.06,
+    "pct_zerados": 99.94,
+    "saldo_mediano": 0.55,
+    "saldo_medio": 0.88,
+    "apostado_total": 6694094.0,
+    "casa_ficou_com": 991187.18,
+    "casa_pct_do_apostado": 14.807,
+    "casa_pct_do_depositado": 99.12
+   }
+  }
+ },
+ "final": {
+  "justo": {
+   "pct_zerados": 93.91,
+   "giros_ate_zerar_mediana": 325,
+   "giros_ate_zerar_p10": 154,
+   "giros_ate_zerar_p90": 3398,
+   "apostado_ate_zerar_mediana": 325.0,
+   "apostado_ate_zerar_media": 1303.35,
+   "pct_estiveram_no_lucro_e_zeraram": 67.56,
+   "pct_estiveram_no_lucro": 73.65,
+   "pico_mediano_dos_que_zeraram": 122.74,
+   "pct_pico_acima_de_200_e_zeraram": 28.51
+  },
+  "tigrinho": {
+   "pct_zerados": 96.79,
+   "giros_ate_zerar_mediana": 313,
+   "giros_ate_zerar_p10": 152,
+   "giros_ate_zerar_p90": 3069,
+   "apostado_ate_zerar_mediana": 313.0,
+   "apostado_ate_zerar_media": 1194.69,
+   "pct_estiveram_no_lucro_e_zeraram": 66.61,
+   "pct_estiveram_no_lucro": 69.82,
+   "pico_mediano_dos_que_zeraram": 121.0,
+   "pct_pico_acima_de_200_e_zeraram": 28.66
+  },
+  "piso": {
+   "pct_zerados": 99.94,
+   "giros_ate_zerar_mediana": 251,
+   "giros_ate_zerar_p10": 142,
+   "giros_ate_zerar_p90": 1422,
+   "apostado_ate_zerar_mediana": 251.5,
+   "apostado_ate_zerar_media": 657.8,
+   "pct_estiveram_no_lucro_e_zeraram": 63.47,
+   "pct_estiveram_no_lucro": 63.53,
+   "pico_mediano_dos_que_zeraram": 108.96,
+   "pct_pico_acima_de_200_e_zeraram": 23.89
+  }
+ },
+ "estrategia_dobrar_tigrinho": {
+  "pct_dobraram": 31.87,
+  "pct_zeraram": 68.13,
+  "pct_ainda_jogando": 0.0,
+  "saldo_medio_final": 90.04,
+  "apostado_medio": 249.48,
+  "casa_pct_do_apostado": 3.994
+ },
+ "jogador_mediano": {
+  "indice_na_amostra": 44,
+  "giros_ate_zerar": 312,
+  "pico": 116.6,
+  "giro_do_pico": 33,
+  "giros_no_lucro": 64,
+  "maior_premio_num_giro": 25.0
+ },
+ "segundos": 23.4
+}
