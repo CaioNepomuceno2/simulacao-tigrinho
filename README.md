@@ -1,8 +1,8 @@
 # Simulei 10 mil jogadores no tigrinho
 
-Código do vídeo sobre o tigrinho do canal Experimento Neural, no YouTube.
+Código do vídeo sobre o tigrinho do canal [Experimento Neural](https://www.youtube.com/@experimentoneural), no YouTube.
 
-Vídeo: *o link entra aqui quando o vídeo for publicado.*
+Vídeo: [Simulei 10 mil jogadores no tigrinho. Quantos saíram no lucro?](https://youtu.be/1s1dYrQi-AU) (5 min)
 
 ## A pergunta
 
